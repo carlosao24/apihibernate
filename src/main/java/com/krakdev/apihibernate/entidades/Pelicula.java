@@ -1,4 +1,4 @@
-package com.krakdev.peliculas.entidades;
+package com.krakdev.apihibernate.entidades;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

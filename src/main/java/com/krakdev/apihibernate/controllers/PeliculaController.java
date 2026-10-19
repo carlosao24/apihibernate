@@ -1,12 +1,13 @@
-package com.krakdev.peliculas.controllers;
+package com.krakdev.apihibernate.controllers;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.krakdev.peliculas.entidades.Pelicula;
-import com.krakdev.peliculas.services.ServicioPelicula;
+
+import com.krakdev.apihibernate.entidades.Pelicula;
+import com.krakdev.apihibernate.services.ServicioPelicula;
 
 @RestController
 @RequestMapping("/peliculas")

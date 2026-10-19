@@ -1,10 +1,11 @@
-package com.krakdev.peliculas.services;
+package com.krakdev.apihibernate.services;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.krakdev.peliculas.entidades.Pelicula;
-import com.krakdev.peliculas.repository.PeliculaRepository;
+
+import com.krakdev.apihibernate.entidades.Pelicula;
+import com.krakdev.apihibernate.repository.PeliculaRepository;
 
 @Service
 public class ServicioPelicula {
